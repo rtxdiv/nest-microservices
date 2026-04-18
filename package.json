@@ -1,0 +1,39 @@
+{
+  "name": "@microservices/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@nestjs/schematics": "^11.0.0",
+    "@nestjs/testing": "^11.0.0",
+    "@nx/js": "22.6.5",
+    "@nx/nest": "22.6.5",
+    "@nx/node": "22.6.5",
+    "@nx/web": "22.6.5",
+    "@nx/webpack": "22.6.5",
+    "@swc-node/register": "~1.11.1",
+    "@swc/core": "~1.15.5",
+    "@swc/helpers": "~0.5.18",
+    "@types/express": "^5.0.6",
+    "@types/node": "20.19.9",
+    "nx": "22.6.5",
+    "tslib": "^2.3.0",
+    "typescript": "~5.9.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@nestjs-modules/ioredis": "^2.2.1",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/microservices": "^11.1.19",
+    "@nestjs/mongoose": "^11.0.4",
+    "@nestjs/platform-express": "^11.0.0",
+    "@nestjs/serve-static": "^5.0.5",
+    "axios": "^1.6.0",
+    "ioredis": "^5.10.1",
+    "mongoose": "^9.4.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0"
+  }
+}

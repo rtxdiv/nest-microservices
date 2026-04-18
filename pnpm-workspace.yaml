@@ -1,0 +1,6 @@
+packages:
+  - "packages/*"
+  - "api-gateway"
+  - "api-gateway-e2e"
+  - "apps/*"
+autoInstallPeers: true
